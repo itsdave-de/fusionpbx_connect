@@ -214,3 +214,9 @@ app_license = "MIT"
 # auth_hooks = [
 #	"fusionpbx_control.auth.validate"
 # ]
+
+doc_events = {
+    "Fifo Warteschlange Ansage": {
+        "before_save": "fusionpbx_control.fusionpbx_control.doctype.fifo_warteschlange_ansage.fifo_warteschlange_ansage.before_save"
+    }
+}
